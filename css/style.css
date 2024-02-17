@@ -1,0 +1,54 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON CLASSES */
+
+.flex {
+    display: flex;
+}  
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.arrow-left {
+    border-top : 8px solid transparent;
+    border-bottom : 8px solid transparent;
+    border-right : 8px solid black;
+    cursor: pointer;
+}   
+
+.arrow-right {
+    border-top : 8px solid transparent;
+    border-bottom : 8px solid transparent;
+    border-left : 8px solid black;
+    cursor: pointer;
+}   
+
+.carrousel > div:nth-of-type(1) {
+    width: 50%;
+}
+
+.img-outer {
+    width: 70%;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.img-outer img {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.img-container {
+    position: relative;
+}
